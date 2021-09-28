@@ -25,7 +25,7 @@ export default function Dashboard() {
       // clean up logic
       // setUsers(null);
     };
-  }, []);
+  }, [dispatch]);
 
   const handleSearch = async (ev) => {
     ev.preventDefault();
